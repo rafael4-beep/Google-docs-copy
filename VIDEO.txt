@@ -1,9 +1,0 @@
-Walkthrough video (3–5 min): <PASTE YOUR UNLISTED LOOM OR YOUTUBE LINK HERE>
-
-Suggested outline to cover:
-  1. Main user flow: dashboard -> create / open a document -> format text -> autosave.
-  2. File upload: drop a .md or .docx file and show it become an editable document.
-  3. Sharing: open a doc as Ada, Share with Grace (editor) and Alan (viewer),
-     then switch users via the avatar menu and show owned-vs-shared + read-only mode.
-  4. What works end to end, and what was intentionally deprioritized (see ARCHITECTURE.md).
-  5. How AI supported the workflow (see AI_WORKFLOW.md).
