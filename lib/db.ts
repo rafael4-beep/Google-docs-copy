@@ -12,7 +12,9 @@ import type { Database } from "./types";
 
 const DB_PATH = process.env.DB_PATH
   ? path.resolve(process.env.DB_PATH)
-  : path.join(process.cwd(), "data", "db.json");
+  : process.env.VERCEL
+    ? "/tmp/db.json"
+    : path.join(process.cwd(), "data", "db.json");
 
 function ensureDir(): void {
   const dir = path.dirname(DB_PATH);
